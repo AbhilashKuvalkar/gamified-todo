@@ -1,0 +1,15 @@
+{
+  "name": "gamified-todo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Gamified todo app - React client + Node.js (Express) API + SQLite, hosted on IIS under /UBMV",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client",
+    "preview:client": "npm run preview --prefix client",
+    "start:server": "npm start --prefix server"
+  }
+}

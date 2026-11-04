@@ -1,0 +1,15 @@
+{
+  "name": "gamified-todo-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Express + SQLite API for the Gamified Todo app (runs behind IIS + ARR)",
+  "main": "server.js",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
